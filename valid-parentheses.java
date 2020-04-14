@@ -1,5 +1,5 @@
 //https://leetcode.com/problems/valid-parentheses/
-class Solution {
+class ValidParentheses {
     
     public boolean isValid(String s) {
         int len = s.length();

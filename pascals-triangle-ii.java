@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 //https://leetcode.com/problems/pascals-triangle-ii/
-class Solution {
+class PascalTriangleII {
     int[][] pascals = new int[34][34];
     public List<Integer> getRow(int rowIndex) {
         for (int i = 0; i < pascals.length; i++) 

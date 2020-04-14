@@ -1,7 +1,7 @@
 import java.util.HashMap;
 
 // https://leetcode.com/problems/fibonacci-number/
-class Solution {
+class FibonacciNumber {
     HashMap<Integer, Integer> cache = new HashMap<Integer, Integer>();
 
     public int fib(int N) {

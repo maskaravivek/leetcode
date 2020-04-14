@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/reverse-string/
 
-class Solution {
+class ReverseString {
     public void helper(char[] s, int left, int right) {
         if(left >=right) return;
         char temp = s[left];

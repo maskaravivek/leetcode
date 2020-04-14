@@ -1,6 +1,6 @@
 //https://leetcode.com/problems/implement-strstr/
 
-class Solution {
+class ImplementStrStr {
     public int strStr(String haystack, String needle) {
         int nLen = needle.length();
         int hLen = haystack.length();

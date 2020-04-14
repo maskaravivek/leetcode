@@ -1,6 +1,6 @@
 //https://leetcode.com/problems/palindrome-number/
 
-class Solution {
+class PalindromeNumber {
     public boolean isPalindrome(int x) {
         String number = String.valueOf(x);
         char ch[]=number.toCharArray();  

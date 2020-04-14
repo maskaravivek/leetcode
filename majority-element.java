@@ -2,7 +2,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 // https://leetcode.com/problems/majority-element/
-class Solution {
+class MajorityElement {
     public int majorityElement(int[] nums) {
         Map<Integer, Integer> counts = new HashMap<Integer, Integer>();
 

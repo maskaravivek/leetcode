@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/plus-one/
 
-class Solution {
+class PlusOne {
     public int[] plusOne(int[] digits) {
         int sum, carryOver = 0, remainder = 0;
         int lastIndex = digits.length-1;

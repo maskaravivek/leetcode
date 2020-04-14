@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/search-insert-position/
 
-class Solution {
+class SearchInsertPosition {
     public int searchInsert(int[] nums, int target) {
         int len = nums.length;
         if(len==0) {
