@@ -1,17 +1,27 @@
 class DuplicateZeros {
     public void duplicateZeros(int[] arr) {
-        for(int i =0; i< arr.length; i++) {
+        int possible_duplicates = 0;
+        int length = arr.length - 1;
+        for(int i =0; i<= length - possible_duplicates; i++) {
             if(arr[i] == 0) {
-                for(int j=arr.length-1; j>i; j--) {
-                    if(j+1 < arr.length) {
-                        arr[j+1] = arr[j];   
-                    }
+                if(i == length - possible_duplicates) {
+                    arr[length] = 0;
+                    length--;
+                    break;
                 }
-                if(i+1 < arr.length) {
-                    arr[i+1] = 0;    
-                    i++;
-                }
+                possible_duplicates++;
             }
         }
+        
+        int last = length - possible_duplicates;
+        for(int i = last; i>=0; i--) {
+            if(arr[i] == 0) {
+                arr[i+possible_duplicates] = 0;
+                possible_duplicates --;
+                arr[i+possible_duplicates] = 0;               
+            } else {
+                arr[i+ possible_duplicates] = arr[i]; 
+            }
+        } 
     }
 }
