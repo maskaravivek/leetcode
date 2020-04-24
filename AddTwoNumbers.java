@@ -46,7 +46,7 @@ class MyLinkedList {
     }
 }
 
-class Solution {
+class AddTwoNumbers {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         MyLinkedList list = new MyLinkedList();
         int carry = 0, rem = 0;
