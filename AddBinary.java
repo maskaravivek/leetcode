@@ -15,29 +15,33 @@ class AddBinary {
         int carryOver = 0, num, sum;
 
         String sumStr = "";
-        while (aIdx-- >= 0 && bIdx-- >= 0) {
+        while (aIdx >= 0 && bIdx >= 0) {
             int aNum = a.charAt(aIdx) - 48;
             int bNum = b.charAt(bIdx) - 48;
             sum = aNum + bNum + carryOver;
             carryOver = sum / 2;
             num = sum % 2;
             sumStr = sumStr + String.valueOf(num);
+            aIdx --;
+            bIdx --;
         }
 
-        while (aIdx-- >= 0) {
+        while (aIdx >= 0) {
             int aNum = a.charAt(aIdx) - 48;
             sum = aNum + carryOver;
             carryOver = sum / 2;
             num = sum % 2;
             sumStr = sumStr + String.valueOf(num);
+            aIdx --;
         }
 
-        while (bIdx-- >= 0) {
-            int bNum = a.charAt(bIdx) - 48;
+        while (bIdx >= 0) {
+            int bNum = b.charAt(bIdx) - 48;
             sum = bNum + carryOver;
             carryOver = sum / 2;
             num = sum % 2;
             sumStr = sumStr + String.valueOf(num);
+            bIdx --;
         }
 
         if (carryOver != 0) {
