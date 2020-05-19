@@ -1,26 +1,26 @@
-// https://leetcode.com/problems/binary-tree-level-order-traversal/
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-class TraverseATree {
-    public List<List<Integer>> levelOrder(TreeNode root) {
+public class AverageOfLevelsInABinaryTree {
+    public List<Double> averageOfLevels(TreeNode root) {
         if (root == null) {
             return new ArrayList<>();
         }
-        List<List<Integer>> result = new ArrayList<>();
+        List<Double> result = new ArrayList<>();
         Queue<List<TreeNode>> queue = new LinkedList<>();
         queue.add(Arrays.asList(root));
 
         while (!queue.isEmpty()) {
             List<TreeNode> level = queue.poll();
-            List<Integer> numbers = new ArrayList<>();
+            double sum = 0.0;
+            int count = 0;
             List<TreeNode> nodes = new ArrayList<>();
             for (TreeNode node : level) {
-                numbers.add(node.val);
+                sum += node.val;
+                count++;
                 if (node.left != null) {
                     nodes.add(node.left);
                 }
@@ -28,7 +28,11 @@ class TraverseATree {
                     nodes.add(node.right);
                 }
             }
-            result.add(numbers);
+            double avg = 0.0;
+            if(count > 0) {
+                avg = (double) sum / count;
+            }
+            result.add(avg);
             if (nodes.size() > 0) {
                 queue.add(nodes);
             }
