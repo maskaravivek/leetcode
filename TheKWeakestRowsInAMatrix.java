@@ -1,14 +1,10 @@
+
+// https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix
 import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.Comparator;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
-import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
-import java.util.SortedMap;
-import java.util.Map.Entry;
 
 class TheKWeakestRowsInAMatrix {
     public int[] kWeakestRows(int[][] mat, int k) {
@@ -37,11 +33,11 @@ class TheKWeakestRowsInAMatrix {
 
         int arr[] = new int[k];
         int idx = 0;
-        for(Integer key: result.keySet()) {
+        for (Integer key : result.keySet()) {
             arr[idx++] = key;
-            if(idx == k) {
+            if (idx == k) {
                 break;
-            }   
+            }
         }
         return arr;
     }
