@@ -1,6 +1,6 @@
-import java.util.Arrays;
-
 // https://leetcode.com/problems/last-stone-weight/
+
+import java.util.Arrays;
 
 class LastStoneWeight {
     public int lastStoneWeight(int[] stones) {
