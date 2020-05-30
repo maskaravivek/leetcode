@@ -1,3 +1,5 @@
+
+package leetcode;
 class SameTree {
     public boolean isSameTree(TreeNode p, TreeNode q) {
         if((p == null && q!=null) || (p != null && q==null)) {

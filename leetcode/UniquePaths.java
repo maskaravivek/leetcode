@@ -1,3 +1,5 @@
+package leetcode;
+
 // https://leetcode.com/problems/unique-paths/
 
 public class UniquePaths {

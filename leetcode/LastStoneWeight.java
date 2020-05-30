@@ -1,3 +1,5 @@
+package leetcode;
+
 // https://leetcode.com/problems/last-stone-weight/
 
 import java.util.Arrays;

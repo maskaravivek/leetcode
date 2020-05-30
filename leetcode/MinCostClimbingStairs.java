@@ -1,3 +1,5 @@
+package leetcode;
+
 // https://leetcode.com/problems/min-cost-climbing-stairs
 
 class MinCostClimbingStairs {

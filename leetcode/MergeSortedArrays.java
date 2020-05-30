@@ -1,3 +1,5 @@
+package leetcode;
+
 // https://leetcode.com/problems/merge-sorted-array/
 
 class MergeSortedArrays {

@@ -1,3 +1,5 @@
+package leetcode;
+
 // https://leetcode.com/problems/remove-element/
 
 class RemoveElements {

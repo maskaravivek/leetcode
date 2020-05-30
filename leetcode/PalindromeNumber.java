@@ -1,3 +1,5 @@
+package leetcode;
+
 //https://leetcode.com/problems/palindrome-number/
 
 class PalindromeNumber {

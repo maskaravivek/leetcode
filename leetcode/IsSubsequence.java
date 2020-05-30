@@ -1,3 +1,5 @@
+package leetcode;
+
 // https://leetcode.com/problems/is-subsequence
 
 class IsSubsequence {

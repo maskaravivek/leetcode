@@ -1,3 +1,5 @@
+package leetcode;
+
 public class MyLinkedList {
     public ListNode head;
 

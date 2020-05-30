@@ -1,3 +1,5 @@
+package leetcode;
+
 import java.util.Arrays;
 
 // https://leetcode.com/problems/coin-change

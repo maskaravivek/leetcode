@@ -1,3 +1,5 @@
+package leetcode;
+
 // https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 
 class RemoveDuplicates {

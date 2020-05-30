@@ -1,3 +1,5 @@
+package leetcode;
+
 // https://leetcode.com/problems/sort-array-by-parity/
 class SortArrayByParity {
     public int[] sortArrayByParity(int[] A) {

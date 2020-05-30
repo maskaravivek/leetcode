@@ -1,3 +1,5 @@
+package leetcode;
+
 class SubArraySumEqualsK {
     public int subarraySum(int[] nums, int k) {
         int sum = 0, count = 0;

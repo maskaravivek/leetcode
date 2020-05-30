@@ -1,3 +1,5 @@
+package leetcode;
+
 // https://leetcode.com/problems/subarray-product-less-than-k/submissions/
 
 class SubArrayProductLessThanK {

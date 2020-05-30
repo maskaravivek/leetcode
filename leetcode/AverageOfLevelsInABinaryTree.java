@@ -1,3 +1,5 @@
+package leetcode;
+
 // https://leetcode.com/problems/average-of-levels-in-binary-tree/
 
 import java.util.ArrayList;

@@ -1,3 +1,5 @@
+package leetcode;
+
 class DuplicateZeros {
     public void duplicateZeros(int[] arr) {
         int possible_duplicates = 0;

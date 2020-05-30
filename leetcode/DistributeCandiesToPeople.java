@@ -1,3 +1,4 @@
+package leetcode;
 // https://leetcode.com/problems/distribute-candies-to-people
 
 class DistributeCandiesToPeople {

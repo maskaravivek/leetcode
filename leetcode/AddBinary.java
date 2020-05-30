@@ -1,6 +1,4 @@
-import java.util.*;
-import java.lang.*;
-import java.io.*;
+package leetcode;
 
 class AddBinary {
 

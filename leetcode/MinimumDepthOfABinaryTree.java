@@ -1,3 +1,5 @@
+package leetcode;
+
 // https://leetcode.com/problems/minimum-depth-of-binary-tree/
 
 import java.util.ArrayList;

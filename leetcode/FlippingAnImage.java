@@ -1,3 +1,5 @@
+package leetcode;
+
 public class FlippingAnImage {
     public int[][] flipAndInvertImage(int[][] A) {
         int[][] flipped = new int[A[0].length][A.length];

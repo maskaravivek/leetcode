@@ -1,3 +1,5 @@
+package leetcode;
+
 public class DayOfTheWeek {
     // f = k + [(13*m-1)/5] + D + [D/4] + [C/4] - 2*C
     public String dayOfTheWeek(int day, int month, int year) {
