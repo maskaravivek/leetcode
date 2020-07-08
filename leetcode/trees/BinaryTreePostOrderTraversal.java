@@ -1,13 +1,15 @@
-package leetcode;
-
 // https://leetcode.com/problems/binary-tree-postorder-traversal/
+
+package leetcode.trees;
 
 import java.util.ArrayList;
 import java.util.List;
 
+import leetcode.TreeNode;
+
 class BinaryTreePostOrderTraversal {
     public List<Integer> postorderTraversal(TreeNode root) {
-        List<Integer> tree = new ArrayList();
+        List<Integer> tree = new ArrayList<>();
         postOrder(root, tree);
         return tree;
     }

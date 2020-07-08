@@ -1,13 +1,15 @@
-package leetcode;
-
 // https://leetcode.com/problems/binary-tree-preorder-traversal/
+
+package leetcode.trees;
 
 import java.util.ArrayList;
 import java.util.List;
 
+import leetcode.TreeNode;
+
 public class BinaryTreePreorderTraversal {
     public List<Integer> preorderTraversal(TreeNode root) {
-        List<Integer> tree = new ArrayList();
+        List<Integer> tree = new ArrayList<>();
         preOrder(root, tree);
         return tree;
     }

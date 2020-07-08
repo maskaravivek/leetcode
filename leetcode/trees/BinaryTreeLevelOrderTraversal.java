@@ -1,16 +1,17 @@
-package leetcode;
+// https://leetcode.com/problems/binary-tree-level-order-traversal/
 
-// https://leetcode.com/problems/binary-tree-level-order-traversal-ii
+package leetcode.trees;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-class BinaryTreeLevelOrderTraversalII {
-    public List<List<Integer>> levelOrderBottom(TreeNode root) {
+import leetcode.TreeNode;
+
+class BinaryTreeLevelOrderTraversal {
+    public List<List<Integer>> levelOrder(TreeNode root) {
         if (root == null) {
             return new ArrayList<>();
         }
@@ -36,7 +37,6 @@ class BinaryTreeLevelOrderTraversalII {
                 queue.add(nodes);
             }
         }
-        Collections.reverse(result);
         return result;
     }
 }

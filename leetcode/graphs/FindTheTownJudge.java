@@ -1,6 +1,6 @@
 //https://leetcode.com/problems/find-the-town-judge
 
-package leetcode;
+package leetcode.graphs;
 
 import java.util.HashMap;
 import java.util.HashSet;

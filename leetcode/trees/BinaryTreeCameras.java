@@ -1,6 +1,8 @@
 // https://leetcode.com/problems/binary-tree-cameras
 
-package leetcode;
+package leetcode.trees;
+
+import leetcode.TreeNode;
 
 class BinaryTreeCameras {
     private int NOT_MONITORED = 0;
