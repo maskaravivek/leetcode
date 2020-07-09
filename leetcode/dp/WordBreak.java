@@ -10,7 +10,7 @@ class WordBreak {
 
         dp[0] = true;
 
-        for (int i = 1; i < s.length(); i++) {
+        for (int i = 1; i <= s.length(); i++) {
             for (int j = 0; j < i; j++) {
                 if (wordDict.contains(s.substring(j, i)) && dp[j]) {
                     dp[i] = true;
