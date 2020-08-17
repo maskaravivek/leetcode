@@ -1,4 +1,6 @@
-package leetcode;
+// https://leetcode.com/problems/generate-parentheses/
+
+package leetcode.backtracking;
 
 import java.util.*;
 import java.lang.*;
