@@ -1,3 +1,5 @@
+package leetcode.arrays;
+
 /*
  * @lc app=leetcode id=661 lang=java
  *
@@ -5,7 +7,7 @@
  */
 
 // @lc code=start
-class Solution {
+class ImageeSmoother {
     int[] dr = new int[] { -1, 0, 1, 0, -1, 1, 0, -1, 1 };
     int[] dc = new int[] { 0, -1, 0, 1, -1, 1, 0, 1, -1 };
 

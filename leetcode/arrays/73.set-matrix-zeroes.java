@@ -8,7 +8,7 @@ package leetcode.arrays;
  */
 
 // @lc code=start
-class Solution {
+class SetMatrixZeroes {
     public void setZeroes(int[][] matrix) {
         boolean row = false, col = false;
 

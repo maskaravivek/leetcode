@@ -16,7 +16,7 @@ import leetcode.TreeNode;
  * TreeNode(int val, TreeNode left, TreeNode right) { this.val = val; this.left
  * = left; this.right = right; } }
  */
-class Solution {
+class MergeTwoBinaryTrees {
     public TreeNode mergeTrees(TreeNode t1, TreeNode t2) {
         return traverse(t1, t2);
     }
