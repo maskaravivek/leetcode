@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.backtracking;
 
 /*
  * @lc app=leetcode id=494 lang=java
