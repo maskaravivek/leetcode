@@ -21,7 +21,7 @@ import leetcode.TreeNode;
  * TreeNode(int val, TreeNode left, TreeNode right) { this.val = val; this.left
  * = left; this.right = right; } }
  */
-class Solution {
+class MaximumWidthOfBinaryTree {
     public int widthOfBinaryTree(TreeNode root) {
         if (root == null) {
             return 0;

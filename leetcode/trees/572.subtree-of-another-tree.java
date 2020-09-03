@@ -1,3 +1,9 @@
+// https://leetcode.com/problems/subtree-of-another-tree
+
+package leetcode.trees;
+
+import leetcode.TreeNode;
+
 /*
  * @lc app=leetcode id=572 lang=java
  *
@@ -11,7 +17,7 @@
  * TreeNode(int val, TreeNode left, TreeNode right) { this.val = val; this.left
  * = left; this.right = right; } }
  */
-class Solution {
+class SubtreeOfAnotherTree {
     public boolean isSubtree(TreeNode s, TreeNode t) {
         return traverse(s, t);
     }

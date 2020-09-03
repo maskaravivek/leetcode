@@ -1,4 +1,6 @@
-package leetcode;
+// https://leetcode.com/problems/next-permutation/
+
+package leetcode.backtracking;
 
 import java.util.Arrays;
 
@@ -9,7 +11,7 @@ import java.util.Arrays;
  */
 
 // @lc code=start
-class Solution {
+class NextPermutation {
 
     public static void main(final String[] args) throws java.lang.Exception {
         nextPermutation(new int[] { 1, 2, 3 });
