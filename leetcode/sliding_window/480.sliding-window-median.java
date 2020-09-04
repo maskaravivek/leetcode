@@ -12,7 +12,7 @@ import java.util.List;
  */
 
 // @lc code=start
-class Solution {
+class SlidingWindowMedian {
 
     public static void main(final String[] args) throws java.lang.Exception {
         System.out.println(Arrays.toString(medianSlidingWindow(new int[] { 1, 3, -1, -3, 5, 3, 6, 7 }, 3)));

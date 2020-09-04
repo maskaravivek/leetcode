@@ -2,8 +2,6 @@ package leetcode;
 
 // https://leetcode.com/problems/path-sum/
 
-import java.util.ArrayList;
-import java.util.List;
 
 public class PathSum {
     public boolean hasPathSum(TreeNode root, int sum) {

@@ -7,7 +7,6 @@ import java.util.LinkedHashMap;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
-import java.util.SortedSet;
 
 public class LeastNumOfUniqueIntegers {
     public int findLeastNumOfUniqueInts(int[] arr, int k) {

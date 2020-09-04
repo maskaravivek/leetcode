@@ -7,7 +7,7 @@ package leetcode.dp;
  */
 
 // @lc code=start
-class Solution {
+class OnesAndZeroes {
     public int findMaxForm(String[] strs, int m, int n) {
         int[] zeroes = new int[strs.length];
         int[] ones = new int[strs.length];

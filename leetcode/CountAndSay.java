@@ -1,9 +1,5 @@
 package leetcode;
 
-import java.util.*;
-import java.lang.*;
-import java.io.*;
-
 class CountAndSay {
 
     public static void main(final String[] args) throws java.lang.Exception {
@@ -12,7 +8,6 @@ class CountAndSay {
 
     public static String countAndSay(int n) {
         String num = "1";
-        HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
         for (int i = 2; i <= n; i++) {
             char c = num.charAt(0);
             int count = 1;

@@ -21,7 +21,7 @@ class SortTheMatrixDiagonally {
         for (int i = m - 1; i >= 0; i--) {
             ridx = i;
             cidx = 0;
-            List<Integer> diagonal = new ArrayList();
+            List<Integer> diagonal = new ArrayList<>();
             while (cidx < n && ridx < m) {
                 diagonal.add(mat[ridx++][cidx++]);
             }
@@ -39,7 +39,7 @@ class SortTheMatrixDiagonally {
         for (int i = 1; i < n; i++) {
             ridx = 0;
             cidx = i;
-            List<Integer> diagonal = new ArrayList();
+            List<Integer> diagonal = new ArrayList<>();
             while (cidx < n && ridx < m) {
                 diagonal.add(mat[ridx++][cidx++]);
             }

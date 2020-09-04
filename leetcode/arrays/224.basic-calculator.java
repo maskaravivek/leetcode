@@ -9,7 +9,7 @@ import java.util.Stack;
  */
 
 // @lc code=start
-class Solution {
+class BasicCalculator {
 
     public static void main(final String[] args) throws java.lang.Exception {
         System.out.println(calculate("1 + 1"));

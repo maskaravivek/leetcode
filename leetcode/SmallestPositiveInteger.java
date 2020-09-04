@@ -1,7 +1,5 @@
 package leetcode;
 
-import java.util.Arrays;
-
 class SmallestPositiveInteger {
     public int solution(int[] A) {
         int arr[] = new int[1000001];

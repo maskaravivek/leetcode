@@ -1,9 +1,6 @@
 package leetcode;
 
 import java.util.Arrays;
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.Map;
 
 public class TheKStrongestValuesInAnArray {
     public static void main(final String[] args) throws java.lang.Exception {

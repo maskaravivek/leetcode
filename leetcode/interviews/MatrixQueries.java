@@ -16,8 +16,8 @@ public class MatrixQueries {
     static long[] matrixQueries(int n, int m, int[][] queries) {
         int board[][] = new int[n][m];
         int active[][] = new int[n][m];
-        List<Integer> activeRows = new ArrayList();
-        List<Integer> activeCols = new ArrayList();
+        List<Integer> activeRows = new ArrayList<>();
+        List<Integer> activeCols = new ArrayList<>();
         for (int i = 0; i < n; i++) { 
             activeRows.add(i);
         }

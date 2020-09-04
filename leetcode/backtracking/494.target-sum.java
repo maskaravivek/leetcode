@@ -7,7 +7,7 @@ package leetcode.backtracking;
  */
 
 // @lc code=start
-class Solution {
+class TargetSum {
     int ways = 0;
 
     public int findTargetSumWays(int[] nums, int S) {

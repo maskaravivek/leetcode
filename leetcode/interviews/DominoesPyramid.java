@@ -74,11 +74,11 @@ public class DominoesPyramid {
         if (!(list.get(0) instanceof List)) {
             return permutations(list);
         } else {
-            final List rawList = list;
-            final Stream<List> permutationsFirst = permutationsLists((List) list.get(0));
+            final List<T> rawList = list;
+            final Stream<List<T>> permutationsFirst = permutationsLists((List<T>) list.get(0));
 
             return permutationsFirst.flatMap(pf -> {
-                final Stream<List> permutationsRest = list.size() < 2 ? Stream.of(new LinkedList())
+                final Stream<List<T>> permutationsRest = list.size() < 2 ? Stream.of(new LinkedList<>())
                         : permutationsLists(rawList.subList(1, list.size()));
                 return permutationsRest.map(pr -> {
                     final List<T> copy = new LinkedList<>(pr);

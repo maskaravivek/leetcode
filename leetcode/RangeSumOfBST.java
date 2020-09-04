@@ -7,7 +7,7 @@ import java.util.List;
 
 class RangeSumOfBST {
     public int rangeSumBST(TreeNode root, int L, int R) {
-        List<Integer> tree = new ArrayList();
+        List<Integer> tree = new ArrayList<>();
         postOrder(root, tree, L, R);
         int sum = 0;
         for(Integer i : tree) {

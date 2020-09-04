@@ -1,9 +1,5 @@
 package leetcode;
 
-import java.util.*;
-import java.lang.*;
-import java.io.*;
-
 class AddStrings {
 
     public static void main(final String[] args) throws java.lang.Exception {

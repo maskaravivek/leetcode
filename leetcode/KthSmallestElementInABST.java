@@ -7,7 +7,7 @@ import java.util.List;
 
 class KthSmallestElementInABST {
     public int kthSmallest(TreeNode root, int k) {
-        List<Integer> tree = new ArrayList();
+        List<Integer> tree = new ArrayList<>();
         inOrder(root, tree);
         return tree.get(k - 1);
     }

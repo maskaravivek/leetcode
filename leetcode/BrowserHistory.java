@@ -1,7 +1,5 @@
 package leetcode;
 
-import java.util.LinkedList;
-
 public class BrowserHistory {
 
     String[] arr = new String[5000];

@@ -1,7 +1,5 @@
 package leetcode;
 
-import java.util.Arrays;
-
 class SquaresOfASortedArray {
     public int[] sortedSquares(int[] A) {
         int idx = 0;
