@@ -1,3 +1,7 @@
+// https://leetcode.com/problems/power-of-four/
+
+package leetcode;
+
 /*
  * @lc app=leetcode id=342 lang=java
  *
@@ -5,7 +9,7 @@
  */
 
 // @lc code=start
-class Solution {
+class PowerOfFour {
     public boolean isPowerOfFour(int num) {
         return check(4, num);
     }
