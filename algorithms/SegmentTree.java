@@ -49,6 +49,7 @@ public class SegmentTree {
                 rangeMinQuery(segmentTree, qlow, qhigh, mid + 1, high, 2 * pos + 2));
     }
 
+    // for sum operation
     public void updateVal(int segmentTree[], int low, int high, int diff, int index, int pos) {
         if (index < low || index > high) {
             return;
