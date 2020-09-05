@@ -1,3 +1,7 @@
+// https://leetcode.com/problems/excel-sheet-column-title/
+
+package leetcode;
+
 /*
  * @lc app=leetcode id=168 lang=java
  *
@@ -5,7 +9,7 @@
  */
 
 // @lc code=start
-class Solution {
+class ExcelSheetColumnToTitle {
     public String convertToTitle(int n) {
 
         String title = "";
