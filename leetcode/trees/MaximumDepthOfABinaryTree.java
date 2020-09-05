@@ -1,4 +1,6 @@
-package leetcode;
+package leetcode.trees;
+
+import leetcode.TreeNode;
 
 // https://leetcode.com/problems/maximum-depth-of-binary-tree/
 

@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.trees;
 
 // https://leetcode.com/problems/maximum-depth-of-n-ary-tree/
 
@@ -7,6 +7,8 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
+
+import leetcode.Node;
 
 class MaximumDepthOfANAryTree {
     public int maxDepth(Node root) {

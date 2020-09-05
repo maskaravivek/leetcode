@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/sliding-window-maximum
-package leetcode;
+package leetcode.sliding_window;
 
 import java.util.Deque;
 import java.util.LinkedList;

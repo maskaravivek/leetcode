@@ -1,10 +1,12 @@
 // https://leetcode.com/problems/minimum-distance-between-bst-nodes
 
-package leetcode;
+package leetcode.trees;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+
+import leetcode.TreeNode;
 
 public class MinDiffInBST {
 
