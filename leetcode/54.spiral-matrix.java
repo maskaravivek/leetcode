@@ -12,6 +12,7 @@ import java.util.List;
 // @lc code=start
 class SpiralMatrix {
 
+    // right, down, left, up
     static int dr[] = new int[] { 0, 1, -1, 0 };
     static int dc[] = new int[] { 1, 0, 0, -1 };
 
@@ -29,6 +30,8 @@ class SpiralMatrix {
         }
         List<Integer> result = new ArrayList<>();
         boolean[][] visited = new boolean[matrix.length][matrix[0].length];
+        
+        // direction 0: right, 1: down, 2: left 3: up
         int current = 0;
         int elements = matrix.length * matrix[0].length;
         int row = 0, col = 0;
