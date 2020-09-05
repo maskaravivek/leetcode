@@ -49,6 +49,19 @@ public class SegmentTree {
                 rangeMinQuery(segmentTree, qlow, qhigh, mid + 1, high, 2 * pos + 2));
     }
 
+    public void updateVal(int segmentTree[], int low, int high, int diff, int index, int pos) {
+        if (index < low || index > high) {
+            return;
+        }
+        segmentTree[pos] += diff;
+        if (low >= high) {
+            return;
+        }
+        int mid = (low + high) / 2;
+        updateVal(segmentTree, low, mid, diff, index, 2 * pos + 1);
+        updateVal(segmentTree, mid + 1, high, diff, index, 2 * pos + 2);
+    }
+
     public static boolean isPowerOfTwo(int n) {
         if (n == 1) {
             return true;
