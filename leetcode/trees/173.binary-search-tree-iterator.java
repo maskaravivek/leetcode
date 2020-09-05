@@ -1,5 +1,9 @@
+package leetcode.trees;
+
 import java.util.ArrayList;
 import java.util.List;
+
+import leetcode.TreeNode;
 
 /*
  * @lc app=leetcode id=173 lang=java
