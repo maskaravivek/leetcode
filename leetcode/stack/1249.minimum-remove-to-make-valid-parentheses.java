@@ -22,7 +22,7 @@ class MinimumRemoveToMakeValidParentheses {
                 stack.push(i);
             } else if (arr[i] == ')') {
                 if (!stack.isEmpty()) {
-                    int idx = stack.pop();
+                    stack.pop();
                 } else {
                     arr[i] = ' ';
                 }
