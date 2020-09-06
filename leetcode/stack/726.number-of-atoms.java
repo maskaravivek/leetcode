@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/number-of-atoms/
 
-package leetcode;
+package leetcode.stack;
 
 import java.util.ArrayList;
 import java.util.List;
