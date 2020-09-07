@@ -9,7 +9,7 @@ package leetcode.strings;
  */
 
 // @lc code=start
-class Solution {
+class RepeatedStringMatch {
 
     public static void main(final String[] args) throws java.lang.Exception {
         System.out.println(repeatedStringMatch("abcd", "cdabcdab"));

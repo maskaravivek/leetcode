@@ -9,7 +9,7 @@ package leetcode.arrays;
  */
 
 // @lc code=start
-class Solution {
+class SingleNumber {
     public int singleNumber(int[] nums) {
         if (nums.length < 1) {
             return -1;

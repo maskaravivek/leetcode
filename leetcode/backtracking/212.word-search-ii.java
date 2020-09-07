@@ -14,7 +14,7 @@ import java.util.Map;
  */
 
 // @lc code=start
-class Solution {
+class WordSearchII {
 
     int[] dr = new int[] { -1, 0, 1, 0 };
     int[] dc = new int[] { 0, -1, 0, 1 };

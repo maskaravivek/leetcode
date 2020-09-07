@@ -14,7 +14,7 @@ import java.util.Set;
  */
 
 // @lc code=start
-class Solution {
+class ErectTheFence {
     public int[][] outerTrees(int[][] points) {
         List<int[]> collinear = new ArrayList<>();
 

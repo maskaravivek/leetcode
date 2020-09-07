@@ -11,7 +11,7 @@ import java.util.LinkedList;
  */
 
 // @lc code=start
-class Solution {
+class IsGraphBipartite {
     public boolean isBipartite(int[][] graph) {
         if (graph.length <= 1) {
             return true;

@@ -13,7 +13,7 @@ import java.util.Set;
  */
 
 // @lc code=start
-class Solution {
+class TheSkylineProblem {
     public List<List<Integer>> getSkyline(int[][] buildings) {
 
         List<int[]> points = new ArrayList<>();

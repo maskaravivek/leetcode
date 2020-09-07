@@ -8,7 +8,7 @@ package leetcode.dp;
  */
 
 // @lc code=start
-class Solution {
+class LastStoneWeightII {
     public int lastStoneWeightII(int[] stones) {
         boolean[] dp = new boolean[1501];
         dp[0] = true;

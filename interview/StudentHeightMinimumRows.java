@@ -3,7 +3,7 @@ package interview;
 import java.util.HashMap;
 import java.util.Map;
 
-class Solution {
+class StudentHeightMinimumRows {
 
     static int solution(Integer[] A) {
         // Your solution goes here.

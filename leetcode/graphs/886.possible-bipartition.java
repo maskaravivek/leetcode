@@ -8,7 +8,7 @@ package leetcode.graphs;
  */
 
 // @lc code=start
-class Solution {
+class PossibleBipartition {
     public boolean possibleBipartition(int N, int[][] dislikes) {
         int[] colors = new int[N];
 

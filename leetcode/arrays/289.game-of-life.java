@@ -9,7 +9,7 @@ package leetcode.arrays;
  */
 
 // @lc code=start
-class Solution {
+class GameOfLife {
 
     int[] dr = new int[] { 1, 0, -1, 0, 1, -1, 1, -1 };
     int[] dc = new int[] { 0, 1, 0, -1, 1, -1, -1, 1 };
