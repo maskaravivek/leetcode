@@ -21,6 +21,9 @@ public class MaximumTime {
         solution("1?:??"); // 19:59
         solution("?4:0?"); // 14:09
         solution("?9:4?"); // 19:49
+
+        solution("2?:?8"); // 19:49
+        solution("1?:?2"); // 19:49
     }
 
     public static String solution(String time) {
