@@ -10,7 +10,7 @@ import java.util.PriorityQueue;
  */
 
 // @lc code=start
-class Solution {
+class KClosestPairsToOrigin {
     public int[][] kClosest(int[][] points, int K) {
         int[][] result = new int[K][];
 

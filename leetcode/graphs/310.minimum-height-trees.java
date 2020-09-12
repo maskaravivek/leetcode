@@ -15,7 +15,7 @@ import java.util.Set;
  */
 
 // @lc code=start
-class Solution {
+class MinimumHeightTrees {
     public List<Integer> findMinHeightTrees(int n, int[][] edges) {
         if (n == 1)
             return Collections.singletonList(0);

@@ -18,7 +18,7 @@ import leetcode.TreeNode;
  * TreeNode(int val, TreeNode left, TreeNode right) { this.val = val; this.left
  * = left; this.right = right; } }
  */
-class Solution {
+class NumberOfGoodLeafNodesPairs {
     int result = 0;
 
     public int countPairs(TreeNode root, int distance) {
