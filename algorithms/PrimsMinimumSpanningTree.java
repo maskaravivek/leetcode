@@ -2,6 +2,7 @@
 
 package algorithms;
 
+
 public class PrimsMinimumSpanningTree {
 
     public static void main(final String[] args) throws java.lang.Exception {
