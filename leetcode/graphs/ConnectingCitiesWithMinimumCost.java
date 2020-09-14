@@ -2,66 +2,50 @@ package leetcode.graphs;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
+import java.util.PriorityQueue;
+import java.util.Set;
 
 public class ConnectingCitiesWithMinimumCost {
     public int minimumCost(int N, int[][] connections) {
-        Map<Integer, Map<Integer, Integer>> graph = new HashMap<>();
+        Map<Integer, List<int[]>> graph = new HashMap<>();
 
         for (int i = 0; i < N; i++) {
-            graph.put(i, new HashMap<>());
+            graph.put(i, new ArrayList<>());
         }
 
         for (int i = 0; i < connections.length; i++) {
-            graph.get(connections[i][0] - 1).put(connections[i][1] - 1, connections[i][2]);
-            graph.get(connections[i][1] - 1).put(connections[i][0] - 1, connections[i][2]);
+            graph.get(connections[i][0] - 1).add(new int[] { connections[i][1] - 1, connections[i][2] });
+            graph.get(connections[i][1] - 1).add(new int[] { connections[i][0] - 1, connections[i][2] });
         }
         return minimumSpanningTree(N, graph);
     }
 
-    public static int minimumSpanningTree(int N, Map<Integer, Map<Integer, Integer>> graph) {
-        boolean[] mst = new boolean[N];
+    public static int minimumSpanningTree(int N, Map<Integer, List<int[]>> graph) {
+        Set<Integer> visited = new HashSet<>();
 
-        int[] parent = new int[N];
-        int[] key = new int[N];
+        PriorityQueue<int[]> queue = new PriorityQueue<>((a, b) -> {
+            return a[2] - b[2];
+        });
 
-        for (int i = 0; i < N; i++) {
-            key[i] = Integer.MAX_VALUE;
-            mst[i] = false;
-        }
+        queue.add(new int[] { 1, 1, 0 });
 
-        key[0] = 0;
-        parent[0] = -1;
         int cost = 0;
+        while (!queue.isEmpty()) {
+            int[] item = queue.poll();
 
-        for (int i = 0; i < N - 1; i++) {
-            int u = minKey(key, mst);
+            if (!visited.contains(item[1])) {
+                cost += item[2];
+                visited.add(item[1]);
 
-            mst[u] = true;
-
-            Map<Integer, Integer> adj = graph.get(u);
-            for (Integer v : adj.keySet()) {
-                if (mst[v] == false && adj.get(v) < key[v]) {
-                    key[v] = adj.get(v);
-                    parent[v] = u;
-                    cost += adj.get(v);
+                for (int[] adj : graph.get(item[1])) {
+                    queue.add(new int[] { item[1], adj[0], adj[1] });
                 }
             }
         }
-        return cost;
-    }
 
-    public static int minKey(int[] key, boolean[] mst) {
-        int min = Integer.MAX_VALUE;
-        int minIdx = -1;
-        for (int i = 0; i < key.length; i++) {
-            if (mst[i] == false && key[i] < min) {
-                min = key[i];
-                minIdx = i;
-            }
-        }
-
-        return minIdx;
+        return visited.size() == N ? cost : -1;
     }
 }
