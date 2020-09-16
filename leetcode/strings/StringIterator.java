@@ -11,7 +11,7 @@ public class StringIterator {
     int currentIdx = 0;
 
     public static void main(String[] args) {
-        StringIterator iterator = new StringIterator("L1e2t1C1o1d1e1");
+        new StringIterator("L1e2t1C1o1d1e1");
     }
 
     public StringIterator(String compressedString) {

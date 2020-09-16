@@ -35,7 +35,7 @@ public class LargestSubarrayLengthK {
         queue.add(new ArrayList<>(subArray));
 
         for (int i = K; i < A.length; i++) {
-            int idx = subArray.remove(0);
+            subArray.remove(0);
 
             subArray.add(A[i]);
             queue.add(new ArrayList<>(subArray));
