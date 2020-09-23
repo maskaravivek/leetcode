@@ -1,4 +1,4 @@
-package interview;
+package interview.google;
 
 public class MinDaysToBloom {
     int minDaysBloom(int[] roses, int k, int n) {

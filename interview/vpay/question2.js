@@ -85,7 +85,6 @@ function solution(input) {
 
     console.log((numberOfDigits / 3) - 1)
     if (numberOfThousands !== 0 && (numberOfDigits / 3) - 1 !== numberOfThousands) {
-        console.log(numberOfDigits / 3)
         if (numberOfDigits % 3 === 0) {
             if ((numberOfDigits / 3) - 1 !== numberOfThousands) {
                 return false;

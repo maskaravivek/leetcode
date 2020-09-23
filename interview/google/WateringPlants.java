@@ -1,6 +1,6 @@
 // https://leetcode.com/discuss/interview-question/394347/
 
-package interview;
+package interview.google;
 
 public class WateringPlants {
 

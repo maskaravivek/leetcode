@@ -1,4 +1,4 @@
-package interview;
+package interview.google;
 
 public class PartitionArrayMinDifferenceSubsets {
     public static void main(String[] args) {

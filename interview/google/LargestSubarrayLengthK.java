@@ -1,6 +1,6 @@
 // https://leetcode.com/discuss/interview-question/352459/
 
-package interview;
+package interview.google;
 
 import java.util.ArrayList;
 import java.util.Arrays;

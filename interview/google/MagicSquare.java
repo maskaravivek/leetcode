@@ -1,6 +1,6 @@
 // https://www.geeksforgeeks.org/magic-square/
 
-package interview;
+package interview.google;
 
 public class MagicSquare {
     public void magicSquare(int n) {

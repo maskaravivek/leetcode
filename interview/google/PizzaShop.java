@@ -1,6 +1,6 @@
 // https://leetcode.com/discuss/interview-question/356935/
 
-package interview;
+package interview.google;
 
 import java.util.TreeSet;
 

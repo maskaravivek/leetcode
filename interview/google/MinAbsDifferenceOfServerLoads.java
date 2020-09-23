@@ -1,5 +1,5 @@
 // https://leetcode.com/discuss/interview-question/356433/
-package interview;
+package interview.google;
 
 import java.util.Arrays;
 

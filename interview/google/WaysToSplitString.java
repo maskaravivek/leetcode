@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/number-of-good-ways-to-split-a-string/
 // https://leetcode.com/discuss/interview-question/553399/
 
-package interview;
+package interview.google;
 
 public class WaysToSplitString {
 

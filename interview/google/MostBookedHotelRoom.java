@@ -1,6 +1,6 @@
 // https://leetcode.com/discuss/interview-question/421787/
 
-package interview;
+package interview.google;
 
 import java.util.HashMap;
 import java.util.Map;
