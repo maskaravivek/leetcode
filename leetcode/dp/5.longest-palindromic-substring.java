@@ -9,7 +9,7 @@ package leetcode.dp;
  */
 
 // @lc code=start
-class Solution {
+class LongestPalindromicSubstring {
     public String longestPalindrome(String s) {
         char[] arr = s.toCharArray();
         int len = s.length();
