@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/longest-palindrome/
+package leetcode;
 
 import java.util.HashMap;
 import java.util.Map;
