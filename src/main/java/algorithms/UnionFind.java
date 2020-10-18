@@ -7,7 +7,7 @@ import models.SetNode;
 
 public class UnionFind {
 
-    static Map<Long, SetNode> map = new HashMap<>();
+    static Map<Long, SetNode> map = new HashMap<Long, SetNode>();
 
     public static void main(final String[] args) throws java.lang.Exception {
         makeSet(1);

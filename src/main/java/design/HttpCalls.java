@@ -14,7 +14,7 @@ import java.util.Map;
 public class HttpCalls {
 
     public static void main(String[] args) throws IOException {
-        Map<String, String> params = new HashMap<>();
+        Map<String, String> params = new HashMap<String, String>();
         params.put("hello", "world");
         params.put("test", "value");
         htttpGet("https://jsonplaceholder.typicode.com/todos/1", params);
