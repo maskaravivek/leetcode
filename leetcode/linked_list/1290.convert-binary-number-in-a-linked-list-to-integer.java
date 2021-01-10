@@ -21,7 +21,7 @@ import leetcode.ListNode;
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-class Solution {
+class ConvertBinaryNumberInALinkedListToInteger {
     public int getDecimalValue(ListNode head) {
         int result = 0;
         
